@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         height = findViewById(R.id.height_id)
         weight = findViewById(R.id.weight_id)
         result_field = findViewById(R.id.result_text_id)
